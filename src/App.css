@@ -1,0 +1,137 @@
+.App {
+  box-sizing: border-box;
+  background-image: url("Assets/bg.png");
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow-y: hidden;
+}
+
+.leftHome {
+  box-sizing: border-box;
+  width: 100vh;
+  padding-top: 10vh;
+}
+
+.logo {
+  margin-left: 27%;
+  max-width: 50%;
+}
+
+.getStarted {
+  font-size: 3vh;
+  color: white;
+  background-color: #3b83e1;
+  width: fit-content;
+  padding: 15px 30px;
+  border-radius: 10px;
+  margin: 0 auto;
+  margin-top: 50px;
+  cursor: pointer;
+}
+
+.getStarted:hover {
+  box-shadow: 3px 5px #3b83e149;
+}
+
+.editor {
+  padding-right: 25vh;
+  padding-left: 25vh;
+  display: flex;
+  justify-content: space-between;
+}
+
+.editorSpace {
+  box-sizing: border-box;
+  height: 378px;
+  width: 498px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.editorButton {
+  font-size: 2vh;
+  color: #ffffff;
+  background-color: #3b83e1;
+  width: fit-content;
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin: 0 auto;
+  cursor: pointer;
+  margin-top: 50px;
+}
+
+.handleOverFlow {
+  overflow-y: hidden;
+  overflow-x: hidden;
+  cursor: pointer;
+  display: flex;
+}
+
+/* .plus {
+  opacity: 0.3;
+  margin-left: 55px;
+  margin-top: 37px;
+} */
+
+.plus {
+  opacity: 0.3;
+  position: relative;
+  top: calc(50% - 25px);
+  left: calc(60% + 25px);
+}
+
+.colorPkr {
+  margin-top: 30px;
+}
+
+.colorPkrLabel {
+  background-color: #53dba7;
+  color: white;
+  padding: 10px;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.download {
+  background-color: #53dba7;
+  width: 1980px;
+  height: 1080px;
+}
+
+.layoutList {
+  width: 500px;
+  height: 400px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.layoutListitem {
+  width: 166.66px;
+  height: 133.33px;
+  cursor: pointer;
+  /* background-color: #3b83e1a9; */
+}
+
+.layoutSelector {
+  background-color: white;
+  padding: 20px;
+}
+
+.layoutImg {
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.drawerButton {
+  position: absolute;
+  left: 0;
+  margin-left: 50px;
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.drawerButton:hover {
+  background-color: #d3d8a49a;
+}

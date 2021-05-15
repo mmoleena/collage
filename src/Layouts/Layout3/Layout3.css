@@ -1,0 +1,15 @@
+.row {
+  display: flex;
+}
+
+.bigBox {
+  width: 331px;
+  height: 252px;
+  background-color: aqua;
+}
+
+.smallBox {
+  width: 166.66px;
+  height: 126px;
+  background-color: aquamarine;
+}

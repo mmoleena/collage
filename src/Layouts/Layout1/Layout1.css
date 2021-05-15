@@ -1,0 +1,22 @@
+.layout1 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box {
+  box-sizing: border-box;
+  background-color: rgb(231, 228, 228);
+  width: 166.67px;
+  height: 133.33px;
+  border-radius: 20px;
+  cursor: pointer;
+  overflow-y: hidden;
+}
+
+.boxUploaded {
+  box-sizing: border-box;
+  width: 166.667px;
+  height: 133.33px;
+  cursor: pointer;
+  overflow-y: hidden;
+}
